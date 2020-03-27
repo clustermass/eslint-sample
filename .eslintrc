@@ -1,0 +1,38 @@
+{
+  "rules": {
+    "prettier/prettier": ["error", {
+      "singleQuote": false,
+      "trailingComma": "none",
+      "bracketSpacing": false,
+      "jsxBracketSameLine": true,
+      "parser": "flow",
+      "tabWidth": 2,
+      "useTabs": false
+    }],
+    "no-mixed-spaces-and-tabs": 1,
+    "no-unused-vars": 1,
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/jsx-handler-names": "off"
+  },
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "plugins": ["prettier", "react"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "globals": {
+    "mixpanel": false
+  },
+  "extends": [
+    "walmart",
+    "prettier",
+    "prettier/react"
+  ]
+}
