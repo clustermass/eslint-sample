@@ -1,0 +1,8 @@
+VSCode extensions:
+
+ESLint 2.1.2 or newer
+Prettier 4.0.0 or newer
+stylelint 0.84.0 or newer
+vscode-icons 10.0.0 or newer
+
+Set VSCode tabs to 2
